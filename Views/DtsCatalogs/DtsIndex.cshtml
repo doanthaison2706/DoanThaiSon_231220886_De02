@@ -1,0 +1,75 @@
+﻿@model IEnumerable<dts_231220886_de02.Models.DtsCatalog>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary mb-4">@ViewData["Title"]</h2>
+
+    <div class="text-end mb-3">
+        <a asp-action="DtsCreate" class="btn btn-success">
+            <i class="bi bi-plus-circle"></i> Thêm mới
+        </a>
+    </div>
+
+    <table class="table table-hover table-bordered align-middle shadow-sm">
+        <thead class="table-primary text-center">
+            <tr>
+                <th>Mã</th>
+                <th>Tên danh mục</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Thành tiền</th>
+                <th>Trạng thái</th>
+                <th>Hình ảnh</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody class="table-light">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-center">@item.DtsId</td>
+                    <td>@item.DtsCateName</td>
+                    <td class="text-end">@string.Format("{0:N0}", item.DtsCatePrice)</td>
+                    <td class="text-center">@item.DtsCateQty</td>
+                    <td class="text-end fw-bold text-success">
+                        @string.Format("{0:N0}", item.DtsCatePrice * item.DtsCateQty)
+                    </td>
+                    <td>
+                        @if (item.DtsCateActive == true)
+                        {
+                            <span class="badge bg-success">Active</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">Non-Active</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        @if (!string.IsNullOrEmpty(item.DtsCatePicture))
+                        {
+                            <img src="@item.DtsCatePicture" alt="Ảnh" width="80" class="rounded shadow-sm" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">Không có</span>
+                        }
+                    </td>
+                    <td class="text-center">
+                        <a asp-action="DtsDetails" asp-route-id="@item.DtsId" class="btn btn-sm btn-info text-white">
+                            <i class="bi bi-eye"></i> Xem
+                        </a>
+                        <a asp-action="DtsEdit" asp-route-id="@item.DtsId" class="btn btn-sm btn-warning text-white">
+                            <i class="bi bi-pencil-square"></i> Sửa
+                        </a>
+                        <a asp-action="DtsDelete" asp-route-id="@item.DtsId" class="btn btn-sm btn-danger">
+                            <i class="bi bi-trash"></i> Xóa
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

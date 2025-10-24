@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = dts_23120886_de02
+build_property.RootNamespace = dts_23120886_de02
+build_property.ProjectDir = C:\Users\doant\source\dts_23120886_de02\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\doant\source\dts_23120886_de02
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/DtsCatalogs/DtsCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHRzQ2F0YWxvZ3NcRHRzQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/DtsCatalogs/DtsDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHRzQ2F0YWxvZ3NcRHRzRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/DtsCatalogs/DtsDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHRzQ2F0YWxvZ3NcRHRzRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/DtsCatalogs/DtsEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHRzQ2F0YWxvZ3NcRHRzRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/DtsCatalogs/DtsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHRzQ2F0YWxvZ3NcRHRzSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/dtsHome/dtsAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZHRzSG9tZVxkdHNBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/dtsHome/dtsIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZHRzSG9tZVxkdHNJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/dtsHome/dtsPrivacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZHRzSG9tZVxkdHNQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/doant/source/dts_23120886_de02/Views/Shared/_DtsLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EdHNMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-iyj7qneprf
